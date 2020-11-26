@@ -1,0 +1,47 @@
+#container {
+    width: 80%;
+    margin: 6.2rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    grid-gap: 0.5rem 0.8rem;
+}
+.bookCard {
+    height: 15rem;
+    background-color: rgb(59, 116, 126);
+    margin: 10px 15px;
+    border: 1px solid black;
+}
+
+#addBook {
+    border-radius: 50%;
+    border: none;
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(39, 138, 184);
+    font-size: 1.8rem;
+    color: white;
+    align-self: center;
+    margin-right: 1rem;
+}
+
+.addBookAnimation {
+    transform: rotate(45deg);
+    transition: 0.5s ease;
+}
+
+#navigation {
+    width: 100%;
+    height: 6.2rem;
+    background-color: rgb(82, 82, 82);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#title {
+    display: inline;
+    color: white;
+    margin: auto;
+}
