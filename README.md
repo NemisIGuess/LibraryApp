@@ -1,2 +1,3 @@
 # LibraryApp
-An app to manage your book library on a simple webpage.
+
+An app to add and delete books from a table that stores data on your local machine.
