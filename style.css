@@ -73,6 +73,7 @@ th {
 td {
   border-top: 1px solid black;
   padding: 5px 20px;
+  font-weight: bold;
 }
 
 thead {
