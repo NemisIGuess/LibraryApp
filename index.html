@@ -28,9 +28,9 @@
         <div class="formDiv" id="addBookForm">
             <h2 id="addBookFormTitle">Add a book</h2>
             <form id="form">
-                <input class="bookFormInput" id="title" type="text" placeholder="Title" required>
-                <input class="bookFormInput" id="author" type="text" placeholder="Author" required>
-                <input class="bookFormInput" id="pages" type="number" placeholder="Number of pages" min="0" max="5000" required>
+                <input class="bookFormInput" id="title" type="text" placeholder="Title" required oninvalid="this.setCustomValidity('Enter the title of the book')" oninput="this.setCustomValidity('')"/>
+                <input class="bookFormInput" id="author" type="text" placeholder="Author" required oninvalid="this.setCustomValidity('Enter the name of the author')" oninput="this.setCustomValidity('')">
+                <input class="bookFormInput" id="pages" type="number" placeholder="Number of pages" min="0" max="5000" required oninvalid="this.setCustomValidity('Enter a number between 0 and 5000')" oninput="this.setCustomValidity('')">
                 <fieldset id="bookFormFieldset">
                     <legend id="bookFormLegend">Have you read this book?</legend>
                     <input class="bookFormRadioButton" type="radio" id="yes" name="read" value="Yes" checked="">

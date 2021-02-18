@@ -97,10 +97,9 @@ function displayTable() {
             tableData.textContent = book[prop];
             tableRow.appendChild(tableData);
     })
-    
-    tableRow.appendChild(createReadButton(index));
-    tableRow.appendChild(createRemoveButton(index));
-    tableBody.appendChild(tableRow);
+        tableRow.appendChild(createReadButton(index));
+        tableRow.appendChild(createRemoveButton(index));
+        tableBody.appendChild(tableRow);
     })
 
     saveDataToLocal();
